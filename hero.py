@@ -9,7 +9,7 @@ class Hero:
     def fight(self, opponent):
         print(f'{random.choice([self.name, opponent.name])} won!')
 
-
+ 
 
 if __name__ == '__main__':
     hero1 = Hero("Wonder Woman")
